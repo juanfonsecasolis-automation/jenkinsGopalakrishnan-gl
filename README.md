@@ -18,9 +18,15 @@
 * Continuous delivery (CD?): basically, a CD where deliverables are also deployed.
 * CI/CD provides higher confidence in the delivery process, better quality code, systematic versioning, and faster deliverables to the market. It also decreases the risk and cost, and facilitates the gathering of quality metrics.
 
-### 4.2. Common tools
-* Team city, Jenkins, Travis CI, Bamboo, Buddy, and Circle CI.
+### 4.2. Jenkins
+* Alternatives: Team city, Jenkins, Travis CI, Bamboo, Buddy, and Circle CI.
+* Jenkins is open source, cross-platform, extendable using plugins, and allows to build/deploy code.
+* Jenkins works in a outdated and scary master-slave architecture. Master pulls the code from the repository, assigns jobs to the slaves and monitors their progress. Slaves are remote machines (or Docker containers?).
+### 4.3 Installations
+* Pre-requisites: java, Jenkins's war file.
+* Execution: `java -jar jenkins.war --httpPort:8080` (if started for the first time, a username/password is provided).
 
-### 
+
+
 
 
